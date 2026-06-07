@@ -92,7 +92,7 @@ class _HalamanLoginState extends State<HalamanLogin> {
     return Scaffold(
       body: Stack(
         children: [
-          // Gradient Background
+          
           Container(
             width: double.infinity,
             height: double.infinity,

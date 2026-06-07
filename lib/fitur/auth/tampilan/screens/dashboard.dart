@@ -435,7 +435,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
       elevation: highlight ? 6 : 2,
       shadowColor: highlight
           ? color.withValues(alpha: 0.3)
-          : const Color(0x0A000000), // black with 0.04 opacity
+          : const Color(0x0A000000),
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(16),
         side: highlight
@@ -534,7 +534,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        // Category Chip
+                        
                         Container(
                           padding: const EdgeInsets.symmetric(
                             horizontal: 8,
@@ -563,7 +563,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                             color: WarnaAplikasi.teksUtama,
                           ),
                         ),
-                        // Brand
+                        
                         Text(
                           'Merk: ${product.merk}',
                           style: const TextStyle(

@@ -140,14 +140,14 @@ class _ProductFormScreenState extends State<ProductFormScreen> {
       ),
       body: Stack(
         children: [
-          // Background Gradient accent at top
+          
           Container(
             height: 100,
             decoration: const BoxDecoration(
               gradient: LinearGradient(
                 colors: [
-                  Color(0x141565C0), // primary with 0.08 opacity
-                  Color(0x0542A5F5), // primaryLight with 0.02 opacity
+                  Color(0x141565C0), 
+                  Color(0x0542A5F5), 
                 ],
                 begin: Alignment.topCenter,
                 end: Alignment.bottomCenter,

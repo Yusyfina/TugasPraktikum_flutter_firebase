@@ -93,7 +93,7 @@ class _HalamanDaftarState extends State<HalamanDaftar> {
     return Scaffold(
       body: Stack(
         children: [
-          // Gradient Background
+          
           Container(
             width: double.infinity,
             height: double.infinity,
